@@ -8,3 +8,48 @@ git commit -m "first commit"
 git push origin master
 
 git help
+
+
+
+##
+RAM@RAMAKRISHNA MINGW64 /e/ANILDEVOPS/test (master)
+$ git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'RAM@RAMAKRISHNA.(none)')
+
+RAM@RAMAKRISHNA MINGW64 /e/ANILDEVOPS/test (master)
+$ git config --global user.email "kameshguntreddi@gmail.com"
+
+RAM@RAMAKRISHNA MINGW64 /e/ANILDEVOPS/test (master)
+$ git config --global user.name "kameshdevops"
+
+RAM@RAMAKRISHNA MINGW64 /e/ANILDEVOPS/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   file1.txt
+
+
+RAM@RAMAKRISHNA MINGW64 /e/ANILDEVOPS/test (master)
+$ git commit -m "first commit"
+[master (root-commit) 586f7e6] first commit
+ 1 file changed, 10 insertions(+)
+ create mode 100644 file1.txt
+
+
+kamal push
